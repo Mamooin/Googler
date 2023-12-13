@@ -11,7 +11,7 @@ async function activate(context) {
     value: ""
    })
 
-   vscode.env.openExternal('https://www.google.com/search?q=' + searchQuery)
+   vscode.env.openExternal('https://www.bing.com/search?q=' + searchQuery)
   }
  )
 
