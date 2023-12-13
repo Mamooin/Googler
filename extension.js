@@ -3,7 +3,7 @@ const vscode = require('vscode')
 /** @param {vscode.ExtensionContext} context */
 async function activate(context) {
  let disposable = vscode.commands.registerCommand(
-  "google.searcher",
+  "googlre.searcher",
   async function () {
    const searchQuery = await vscode.window.showInputBox({
     placeHolder: "Search query",

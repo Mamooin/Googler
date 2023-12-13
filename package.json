@@ -1,6 +1,6 @@
 {
-  "name": "google",
-  "displayName": "google",
+  "name": "googlre",
+  "displayName": "googlre",
   "description": "",
   "version": "0.0.2",
   "engines": {
@@ -14,8 +14,8 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "google.searcher",
-      "title": "searcher Goo"
+      "command": "googlre.searcher",
+      "title": "searcher"
     }]
   },
   "scripts": {
